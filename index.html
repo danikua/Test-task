@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Task</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <div class="sidebar__header-img">
+          <img src="img/svg/setting 1.svg" alt="Logo" />
+        </div>
+      </div>
+      <button class="icon-menu" type="button">
+        <span></span>
+      </button>
+    </header>
+    <sidebar class="sidebar">
+      <div class="sidebar__header">
+        <div class="sidebar__header-img">
+          <img src="img/svg/setting 1.svg" alt="Logo" />
+        </div>
+        <h2 class="sidebar__header-title">Dashboard<sub>v.01</sub></h2>
+      </div>
+      <nav class="sidebar__menu">
+        <ul class="sidebar__menu-list sidebar-list">
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/key-square.svg"
+                alt="Dashboard-icon"
+                class="list-item__thumb"
+              />
+              <p>Dashboard</p>
+              <span
+                ><img src="img/svg/chevron-right 2.svg" alt="chevron"
+              /></span>
+            </a>
+          </li>
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/3d-square 1.svg"
+                alt="Product-icon"
+                class="list-item__thumb"
+              />
+              <p>Product</p>
+              <span><img src="img/svg/chevron-right 2.svg" alt="" /></span>
+            </a>
+          </li>
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/user-square 1.svg"
+                alt="Customers-icon"
+                class="list-item__thumb"
+              />
+              <p>Customers</p>
+              <span><img src="img/svg/chevron-right 2.svg" alt="" /></span>
+            </a>
+          </li>
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/wallet-money 2.svg"
+                alt="Income-icon"
+                class="list-item__thumb"
+              />
+              <p>Income</p>
+              <span><img src="img/svg/chevron-right 2.svg" alt="" /></span>
+            </a>
+          </li>
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/discount-shape 1.svg"
+                alt="Promote-icon"
+                class="list-item__thumb"
+              />
+              <p>Promote</p>
+              <span><img src="img/svg/chevron-right 2.svg" alt="" /></span>
+            </a>
+          </li>
+          <li class="sidebar-list__item list-item">
+            <a href="!#" class="list-item__link">
+              <img
+                src="img/svg/message-question 1.svg"
+                alt="Help-icon"
+                class="list-item__thumb"
+              />
+              <p>Help</p>
+              <span><img src="img/svg/chevron-right 2.svg" alt="" /></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sidebar__footer">
+        <div class="sidebar__footer-img">
+          <img src="img/Ellipse 8.png" alt="footer-icon" />
+        </div>
+        <div class="sidebar__footer-info">
+          <h4 class="sidebar__footer-name">Evano</h4>
+          <p class="sidebar__footer-job">Project Manager</p>
+        </div>
+      </div>
+    </sidebar>
+    <main class="main">
+      <div class="greetings">
+        <h2 class="greeting__title">
+          Hello Evano
+          <span
+            ><img
+              src="img/svg/waving-hand-skin-1-svgrepo-com.svg"
+              alt="waving-hand"
+            />,</span
+          >
+        </h2>
+      </div>
+      <div class="main__table">
+        <div class="main__table-header table-header">
+          <div class="table-header__title">
+            <h2>All Customers</h2>
+            <p>Active Members</p>
+          </div>
+          <div class="table-header__search">
+            <input type="text" class="search-input" placeholder="Search" />
+            <img src="img/svg/search 1.svg" class="search-icon" alt="Search" />
+          </div>
+        </div>
+        <table class="customers-table">
+          <thead class="customers-table__head">
+            <tr class="customers-table__row">
+              <th class="customers-table__cell customers-table__cell--header">
+                Customer Name
+              </th>
+              <th class="customers-table__cell customers-table__cell--header">
+                Company
+              </th>
+              <th class="customers-table__cell customers-table__cell--header">
+                Phone Number
+              </th>
+              <th class="customers-table__cell customers-table__cell--header">
+                Email
+              </th>
+              <th class="customers-table__cell customers-table__cell--header">
+                Country
+              </th>
+              <th class="customers-table__cell customers-table__cell--header">
+                Status
+              </th>
+            </tr>
+          </thead>
+          <tbody class="customers-table__body">
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Jane Cooper</td>
+              <td class="customers-table__cell">Microsoft</td>
+              <td class="customers-table__cell">(226) 555-0118</td>
+              <td class="customers-table__cell">jane@microsoft.com</td>
+              <td class="customers-table__cell">United States</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--active">Active</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Floyd Miles</td>
+              <td class="customers-table__cell">Yahoo</td>
+              <td class="customers-table__cell">(209) 555-0100</td>
+              <td class="customers-table__cell">floyd@yahoo.com</td>
+              <td class="customers-table__cell">Kiribati</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--inactive">Inactive</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Ronald Richards</td>
+              <td class="customers-table__cell">Adobe</td>
+              <td class="customers-table__cell">(302) 555-0107</td>
+              <td class="customers-table__cell">ronald@adobe.com</td>
+              <td class="customers-table__cell">Israel</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--inactive">Inactive</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Marvin McKinney</td>
+              <td class="customers-table__cell">Tesla</td>
+              <td class="customers-table__cell">(252) 555-0126</td>
+              <td class="customers-table__cell">marvin@tesla.com</td>
+              <td class="customers-table__cell">Iran</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--active">Active</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Jerome Bell</td>
+              <td class="customers-table__cell">Google</td>
+              <td class="customers-table__cell">(629) 555-0129</td>
+              <td class="customers-table__cell">jerome@google.com</td>
+              <td class="customers-table__cell">Réunion</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--active">Active</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Kathryn Murphy</td>
+              <td class="customers-table__cell">Microsoft</td>
+              <td class="customers-table__cell">(406) 555-0120</td>
+              <td class="customers-table__cell">kathryn@microsoft.com</td>
+              <td class="customers-table__cell">Curaçao</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--active">Active</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Jacob Jones</td>
+              <td class="customers-table__cell">Yahoo</td>
+              <td class="customers-table__cell">(208) 555-0112</td>
+              <td class="customers-table__cell">jacob@yahoo.com</td>
+              <td class="customers-table__cell">Brazil</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--active">Active</span>
+              </td>
+            </tr>
+            <tr class="customers-table__row">
+              <td class="customers-table__cell">Kristin Watson</td>
+              <td class="customers-table__cell">Facebook</td>
+              <td class="customers-table__cell">(704) 555-0127</td>
+              <td class="customers-table__cell">kristin@facebook.com</td>
+              <td class="customers-table__cell">Aland Islands</td>
+              <td class="customers-table__cell">
+                <span class="customers-table__cell--inactive">Inactive</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="table__footer">
+          <div class="table__footer-desc">
+            <p>Showing data 1 to 8 of 256K entries</p>
+          </div>
+          <div class="pagination">
+            <a href="#" class="prev-btn">&#60;</a>
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="page-link">4</a>
+            <a href="#" class="page-link">...</a>
+            <a href="#" class="page-link">40</a>
+            <a href="#" class="next-btn">&#62;</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="gsap.js"></script>
+  <script src="script.js"></script>
+  <script src="menu.js"></script>
+</html>
